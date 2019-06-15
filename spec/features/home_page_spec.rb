@@ -17,5 +17,10 @@ RSpec.feature 'home page', type: :feature do
     click_on 'Goto App'
 
     expect(page).to have_content('Login Required')
+
+    fill_in 'Username', with: 'admin'
+    click_on 'Sign In'
+
+    expect(page).to have_content('Welcome to the app!')
   end
 end
