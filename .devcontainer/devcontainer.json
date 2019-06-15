@@ -1,0 +1,25 @@
+{
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "castwide.solargraph",
+        "kaiwood.endwise",
+        "noku.rails-run-spec-vscode",
+        "rebornix.Ruby"
+    ],
+    "settings": {
+        "[ruby]": {
+            "editor.formatOnSave": true
+        },
+        "ruby.format": "rubocop",
+        "editor.formatOnSaveTimeout": 2500,
+        "ruby.codeCompletion": false,
+        "ruby.intellisense": "rubyLocate",
+        "ruby.lint": {
+            "rubocop": true
+        },
+        "ruby.useBundler": true,
+        "solargraph.useBundler": true
+    }
+}
