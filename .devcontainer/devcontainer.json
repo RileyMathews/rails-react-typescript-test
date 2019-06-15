@@ -17,7 +17,10 @@
         "ruby.codeCompletion": false,
         "ruby.intellisense": "rubyLocate",
         "ruby.lint": {
-            "rubocop": true
+            "rubocop": {
+                "lint": true,
+                "rails": true
+            }
         },
         "ruby.useBundler": true,
         "solargraph.useBundler": true,
