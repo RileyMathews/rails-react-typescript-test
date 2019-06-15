@@ -17,7 +17,8 @@ Goals here are ideals I will continue to improve as I work on this app.
 - Rails on docker
 
 ## Primary Goals
-### Postgres setup - W
+### Postgres setup - F*
+(This could still potentially be updated with other ways to host postgres.)
 The goal here will be to learn what parts of a rails application determine how rails talks to a database. The specific database used here will be postgresql. Success in this goal means that there is documentation here explaining what parts of application code determine how the rails app talks to the database.
 
 To setup postgres, you can easily get up and running with a new app by running the rails new command with the flat `-d postgresql`.
