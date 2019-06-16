@@ -6,23 +6,10 @@
         "castwide.solargraph",
         "kaiwood.endwise",
         "noku.rails-run-spec-vscode",
-        "rebornix.Ruby"
+        "misogi.ruby-rubocop"
     ],
     "settings": {
-        "[ruby]": {
-            "editor.formatOnSave": true
-        },
-        "ruby.format": "rubocop",
-        "editor.formatOnSaveTimeout": 2500,
-        "ruby.codeCompletion": false,
-        "ruby.intellisense": "rubyLocate",
-        "ruby.lint": {
-            "rubocop": {
-                "lint": true,
-                "rails": true
-            }
-        },
-        "ruby.useBundler": true,
+        "editor.formatOnSaveTimeout": 1500,
         "solargraph.useBundler": true,
         "editor.tabSize": 2
     }
